@@ -1,12 +1,5 @@
-
-/*
-====================
-Weather Card Styling
-====================
-*/
 .card-container {
   display: flex;
-  /* flex-wrap: wrap; */
 }
 
 .weather__card {
@@ -14,10 +7,8 @@ Weather Card Styling
   align-items: center;
   flex-direction: column;
   box-shadow: 0 0 2rem rgba(0, 0, 255, 0.1);
-  /* justify-items: center; */
   padding: 25px 15px;
   margin: 20px;
-  /* width: 50%; */
   width: 310px;
   cursor: pointer;
   background-color: white;
@@ -48,7 +39,6 @@ Weather Card Styling
 }
 
 .card-header-container {
-  // margin-right: 25px;
   position: relative;
   left: 12px;
   flex: 1 1 auto;
@@ -83,7 +73,6 @@ Weather Card Styling
 }
 
 .weather__card-add {
-  /* cursor: auto; */
   margin: 0 auto;
   box-shadow: rgba(0, 0, 255, 0.5);
   width: 80%;
@@ -143,8 +132,6 @@ Weather Card Styling
 }
 
 .min-max__container {
-  // flex: 1 1 auto;
-
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -167,14 +154,6 @@ Weather Card Styling
   justify-content: flex-end;
   height: 1.25rem;
   margin: auto;
-}
-
-.max-arrow__icon {
-  /* margin-bottom: -0.05rem; */
-}
-
-.min-arrow__icon {
-  /* margin-top: -10px; */
 }
 
 .weather-condition__text {
@@ -212,10 +191,6 @@ Weather Card Styling
   position: absolute;
   top: 0;
   right: -10px;
-}
-
-.min-temperature__text {
-  /* margin-top: 10px; */
 }
 
 .weather-icon__container {
@@ -276,11 +251,9 @@ Weather Card Styling
   border: none;
   border-radius: 30px;
   padding: 13px 40px;
-  /* color: white; */
   margin-top: 10px;
   background: #e53935;
   color: #fff;
-  /* border-color: #e53935; */
   border: 1px solid #e53935;
   font-size: 1rem;
   font-weight: bold;

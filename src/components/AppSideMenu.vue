@@ -23,17 +23,6 @@
       <div class="menu-container">
         <section class="menu-body">
           <ul class="menu-links" >
-            <!-- <template v-for="link in links" :key="link.id">
-              <li class="menu-link">
-                <router-link 
-                  :to="link.to" 
-                  :class="{'menu-links-dark': darkTheme}" 
-                  @click="link.emit"
-                >
-                  {{ link.text }}
-                </router-link>
-              </li>
-            </template> -->
             <li class="menu-link" >
               <router-link :class="{'menu-link-dark': darkTheme}" to="/home" @click="$emit('close-menu')">Домой</router-link>
             </li>

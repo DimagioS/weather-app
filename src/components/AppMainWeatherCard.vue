@@ -14,7 +14,6 @@
       <img src="../img/cities/default.svg" class="city__illustration"/>
       <div class="header-content__wrapper">
         <div class="today-weather__container">
-          <!--{{today}}-->
           <div class="temp-state__container">
             <span class="temperature__text">{{ detailInfoCard.dayAfterTomorrow.temp }}°</span>
             <span class="weather-state__text">{{ detailInfoCard.dayAfterTomorrow.state }}</span>

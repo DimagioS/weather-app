@@ -1,7 +1,3 @@
-/*
-    Slide Menu
-= = = = = = = = =
-*/
 .side-menu__container {
   width: 100%;
   height: 100%;
@@ -19,7 +15,6 @@
 }
 
 .side-menu-overlay {
-  /* content: ''; */
   position: absolute;
   display: block;
   top: 0;
@@ -53,10 +48,6 @@
 
 .slide-menu-active {
   transform: none;
-  
-  // .hamburger__icon {
-  //   position: fixed;
-  // }
 }
 
 .slide-menu-active-dark {
@@ -110,10 +101,6 @@
   justify-content: space-between;
   flex: 1 1 auto;
   padding: 50px;
-}
-
-.menu-body {
-  /* flex: 1 1 auto; */
 }
 
 .menu-links {

@@ -57,21 +57,16 @@
 
 .city-search-header {
   width: 100%;
-  /* min-height: 40%; */
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  /* flex-flow: column; */
 }
 
 .city-search-body {
-  /* width: 100%; */
-  /* min-height: 60%; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
 }
 
 .city-search-hr {
@@ -167,7 +162,6 @@
 }
 
 .back__button { 
-  /* ???? */
   position: absolute;
   top: 80px;
   left: -100px;
@@ -233,55 +227,3 @@
     }
   }
 }
-
-
-/* Media Query:   LT-XL  */
-/* @media screen and (max-width: 1919px) {
-  .add-city-btn {
-    height: 80%;
-    width: 75%;
-  }
-} */
-
-/* Media Query:   LT-MD   */
-/* @media screen and (max-width: 959px) {
-
-  app-weather-card {
-    width: 90%;
-    margin-bottom: 2rem;
-  }
-
-  .fav-city-wrapper {
-    height: auto;
-  }
-
-  .add-wrapper {
-    flex-flow: column;
-  }
-
-  .main-card {
-    flex-flow: column;
-    margin-left: -1rem;
-    margin-bottom: 2rem;
-    height: auto;
-  }
-
-  .city-search-title {
-    margin: 2rem;
-  }
-
-  .fav-city-wrapper, .city-search-wrapper, .city-search-header, .city-search-body, .fav-city-header, .fav-city-body, .fav-city-body {
-    width: 100%;
-  }
-
-  .fav-city-wrapper, .fav-city-image, .fav-city-image-overlay {
-    border-radius: 0 0 1rem 1rem;
-  }
-
-  .fav-city-image {
-    background-size: cover;
-    background: no-repeat 50% 50%;
-  }
-
-}
- */

@@ -8,8 +8,6 @@
   min-height: 89vh;
   padding: 20px 0;
   width: 100vw;
-  // top: -100px;
-  // height: 100vh;
 }
 
 .details-page__wrapper-dark {
@@ -55,7 +53,6 @@
 }
 
 .back__button { 
-  /* ???? */
   position: absolute;
   top: 20px;
   left: -150px;
@@ -269,7 +266,6 @@
   padding: 0 30px;
   align-items: center;
   @media (max-width: 960px) {
-    // max-width: 150px;
     padding: 0 17px;
     
   }
@@ -442,9 +438,6 @@
     padding: 15px;
   }
   .header-content__wrapper {
-    // display: flex;
-    // flex-direction: column-reverse;
-    // align-items: center;
   }
   .main-weather__card {
     position: relative;
@@ -474,54 +467,9 @@
   }
 }
 
-
-/* Media Query:   LT-XL   */
 @media screen and (max-width: 1919px) {
   .main-weather__card {
     height: 80%;
-    /* width: 75%; */
   }
-}
-
-/* Media Query:   LT-LG  */
-@media screen and (max-width: 1279px) {
-  // .back__button {
-  //   top: 1rem;
-  // }
-
-  // .main-weather__card {
-  //   width: 80%;
-  // }
-
-  // .body-content__wrapper {
-  //   grid-template-columns: 1fr;
-  // }
-}
-
-/* Media Query:   LT-MD   */
-@media screen and (max-width: 959px) {
-
-  /* .header-content__wrapper {
-    grid-template-columns: 1fr;
-    grid-template-rows: 2fr 1fr;
-  } */
-
-  // .back__button {
-  //   position: static;
-  //   margin-bottom: 1rem;
-  // }
-
-  // .details-page__wrapper {
-  //   flex-flow: column;
-  // }
-
-  // .hum-wind__container, .temp-state__container {
-  //   margin: 0 auto;
-  // }
-
-  // .city-name__container {
-  //   padding-bottom: 0;
-  // }
-
 }
 

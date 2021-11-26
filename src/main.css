@@ -6,9 +6,7 @@
   border: 0 ;
   font-family: "Roboto";
   box-sizing: border-box;
-  /* pointer-events: none; */
 }
-
 
 *,*:before,*:after {
   -moz-box-sizing: border-box;
@@ -16,14 +14,9 @@
   box-sizing: border-box;
 }
  
-  
 a:focus, a:active {
   outline: none;
 }
- 
-/* nav,footer,header,aside {
-  display: block;
-} */
  
 html,body {
   height: 100%;
@@ -68,18 +61,12 @@ ul li {
 img {
   vertical-align: top;
 }
-  
-/* h1,h2,h3,h4,h5,h6 {
-  font-size: inherit;
-  font-weight: inherit;
-} */
 
 body {
   user-select: none;
 }
 
 a.active {
-  /* border-bottom: 2px solid #3eaf7c; */
   position: relative;
 }
 
