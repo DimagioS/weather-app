@@ -130,6 +130,7 @@
         if (cardData) {
           const arrCard = Object.keys(cardData).map(async (el) => {
             const cityData = await requestCityInformation(cardData[el])
+            console.log(cityData);
             return this.allDataObj(cityData)
           });
 
@@ -145,7 +146,8 @@
       },
 
       allDataObj(data) {
-        const timeNow = new Date().getHours();
+        let timeNow = new Date().getHours();
+        if (timeNow == 23) timeNow = 0
 
         return {
           name: data.location.name,
@@ -183,7 +185,7 @@
         }
 
         await firebase.database().ref(`/users/${this.getUid()}/cards`).push(cityData.location.name)
-
+        
         this.addData(cityData, this.mainCardData)
         this.alerts.cityAdded = true
         setTimeout(() => this.alerts.cityAdded = false, this.warningTime);
