@@ -130,7 +130,6 @@
         if (cardData) {
           const arrCard = Object.keys(cardData).map(async (el) => {
             const cityData = await requestCityInformation(cardData[el])
-            console.log(cityData);
             return this.allDataObj(cityData)
           });
 
