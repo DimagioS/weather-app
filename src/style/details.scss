@@ -289,8 +289,11 @@
   letter-spacing: 0.25rem;
   margin: 10px 0;
   text-align: center;
-  padding-left: 5px;
   position: relative;
+
+  @media (max-width: 768px) {
+    letter-spacing: 1px;
+  }
   
   &::after {
     content: "°";
